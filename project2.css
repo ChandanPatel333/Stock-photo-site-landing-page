@@ -1,0 +1,141 @@
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+  justify-content:space-between ;
+  padding: 40px 80px;
+    padding-top: 50px;
+    gap: 50px;
+}
+#left{
+    height: 100%;
+    width: 48%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+#right{
+    height: 100%;
+    width: 40%;
+    /* background-color:blue; */
+    position: relative;
+}
+#right-top{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right-top h4{
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+#right-top h5{
+    font-size: 20px;
+
+}
+#right-top i{
+    color: gold;
+}
+#right img{
+    height: 95%;
+    width: 100%;
+    object-fit: cover;
+}
+#black-gola{
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: -15%;
+}
+#black-gola h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 55px 30px;
+  
+}
+#rotated{
+    /* background-color: aqua; */
+    font-size: 50px;
+    font-weight:10 ;
+    rotate: -90deg;
+    position: absolute;
+    transform-origin: 0 0;
+    left: -20%;
+    
+    bottom: 5%;
+    
+    height: 50px;
+}
+#left h1{
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 80px;
+}
+#bottom-left{
+    width: 100%;
+    height: 40%;
+    /* background-color: yellow; */
+    
+}
+#color{
+    width: fit-content;
+   padding: 10px 15px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+   border: 1px solid black;
+}
+#color1{
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+    border-radius: 50px;
+    margin: 3px;
+}
+#color2{
+    width: 15px;
+    height: 15px;
+    background-color: pink;
+    border-radius: 50%;
+    margin: 3px;
+}
+#color h5{
+    font-size: 20px;
+     margin-right:10px ;
+     font-weight: 500;
+}
+#left h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#left p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
